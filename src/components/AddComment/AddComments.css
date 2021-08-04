@@ -1,0 +1,35 @@
+.add-comments {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.add-comments__form {
+  width: 100%;
+  margin: 40px auto 20px;
+}
+.add-comments__text {
+  width: 50%;
+  border: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+.add-comments__button {
+  width: 200px;
+
+  color: #4b51e6;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  background-color: #fff;
+  border: none;
+}
+.add-comments__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
